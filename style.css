@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Actor&family=Bangers&family=Darker+Grotesque:wght@300&family=Geostar+Fill&family=Iceland&family=Josefin+Sans:wght@400;500&family=Noto+Serif:ital,wght@0,700;1,400&family=Poly&family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  height: 100%;
+  background-color: rgb(247, 243, 243);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 15vh;
+  border: 1px solid black;
+  box-shadow: 5px 8px gray;
+  align-items: center;
+  gap: 20px;
+}
+
+.logoKenzie {
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+}
+
+.kenzie {
+  font-size: 50px;
+}
+
+.blogTitle {
+  display: inline-block;
+  color: blue;
+}
+
+.mainContent {
+  margin-top: -10px;
+  height: 152vh;
+}
+
+h2 {
+  color: blue;
+}
+
+p,
+label {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.post {
+  display: flex;
+  height: 30vh;
+  margin-top: 50px;
+}
+
+.imgPost {
+  width: 330px;
+  height: 220px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.position {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  gap: 17px;
+  padding-top: 7px;
+  padding-left: 20px;
+}
+
+.position2 {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  gap: 17px;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.position4 {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  gap: 17px;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.description {
+  display: flex;
+  margin-right: 20px;
+  line-height: 25px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.author {
+  font-style: italic;
+}
+
+.button {
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 175px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.button:hover {
+  border: 2px solid blue;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  height: 15vh;
+  border: 1px solid black;
+  box-shadow: 5px 8px gray;
+  gap: 20px;
+}
+
+.textFooter {
+  display: flex;
+  font-size: 40px;
+  width: 550px;
+  padding-left: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.emailDescription {
+  font-size: 25px;
+  padding-top: 14px;
+}
+
+.email {
+  font-size: 24px;
+  padding-top: 2px;
+}
+
+.emailColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.emailRow {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.emailBox {
+  border: 2px solid black;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  padding-left: 3px;
+}
+
+.emailBox:hover {
+  border: 2px solid blue;
+}
+
+.emailBox:focus {
+  border: 2px solid #000000;
+  background-color: #ffffff;
+}
+
+.footerButton {
+  display: flex;
+
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 175px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 0px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footerButton:hover {
+  border: 2px solid blue;
+}
+
+.facebook {
+  width: 30px;
+  height: 30px;
+}
+
+.facebook:hover {
+  border: 2px solid blue;
+}
+
+.instagram {
+  width: 30px;
+  height: 30px;
+}
+
+.instagram:hover {
+  border: 2px solid blue;
+}
+
+.mensagem {
+  width: 30px;
+  height: 30px;
+}
+
+.mensagem:hover {
+  border: 2px solid blue;
+}
+
+.redes {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+
+  gap: 20px;
+}
