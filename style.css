@@ -46,6 +46,7 @@
 
 h2 {
   color: blue;
+  text-align: center;
 }
 
 p,
@@ -73,6 +74,7 @@ label {
   gap: 17px;
   padding-top: 7px;
   padding-left: 20px;
+  align-items: center;
 }
 
 .position2 {
@@ -98,11 +100,12 @@ label {
   margin-right: 20px;
   line-height: 25px;
   font-size: 20px;
-  text-align: justify;
+  text-align: center;
 }
 
 .author {
   font-style: italic;
+  text-align: center;
 }
 
 .button {
@@ -185,7 +188,6 @@ a {
 
 .footerButton {
   display: flex;
-
   background-color: black;
   color: white;
   height: 30px;
@@ -195,7 +197,6 @@ a {
   border-radius: 5px;
   font-size: 15px;
   border: 0px;
-  text-decoration: none;
   cursor: pointer;
 }
 
