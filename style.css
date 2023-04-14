@@ -46,7 +46,7 @@
 
 h2 {
   color: blue;
-  text-align: center;
+  /* text-align: center; */
 }
 
 p,
@@ -74,7 +74,7 @@ label {
   gap: 17px;
   padding-top: 7px;
   padding-left: 20px;
-  align-items: center;
+  /* align-items: center; coloca os botões no meio */
 }
 
 .position2 {
@@ -100,12 +100,12 @@ label {
   margin-right: 20px;
   line-height: 25px;
   font-size: 20px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .author {
   font-style: italic;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .button {
